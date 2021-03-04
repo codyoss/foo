@@ -7,6 +7,11 @@ import (
 	"github.com/codyoss/bar"
 )
 
+const (
+	// Something is a random float.
+	Something = 1e7
+)
+
 // Combine makes a string from ints.
 func Combine(is ...int) string {
 	var b strings.Builder
